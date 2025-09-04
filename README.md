@@ -1,13 +1,34 @@
-# POC: Automatización de Captura y Validación de Requisitos
+# 🧪 POC: Gestión y Validación de Requisitos Técnicos
 
-Este proyecto permite capturar requisitos funcionales, asociarlos a funciones de test y validar su cumplimiento automáticamente.
+Este proyecto es un Proof of Concept para automatizar la captura de requisitos funcionales y validar su cumplimiento técnico desde el backend.
 
-## Objetivos
-- Reducir errores por mala interpretación de requisitos.
-- Aumentar la trazabilidad entre lo que se pide y lo que se entrega.
-- Integrar validación continua en pipelines CI/CD.
+## 🎯 Objetivo
 
-## Instalación
+- Capturar requisitos de forma estructurada
+- Asociarlos a funcionalidades y pruebas
+- Validar automáticamente si el software cumple lo definido
+
+## 🧰 Tecnologías
+
+- **Flask** – Framework web ligero
+- **SQLAlchemy** – ORM para modelado relacional
+- **SQLite** – Base de datos local y portable
+- **Jinja2** – Templates para frontend
+- **Python-dotenv** – Configuración vía `.env`
+- **HTML/CSS** – Interfaz básica
+- **Seed.py** – Script para poblar datos iniciales
+
+## 🗂️ Estructura del Proyecto
+
+La siguiente imagen muestra la estructura del proyecto `FLASK_REQUIREMENT_POC`, incluyendo carpetas clave como `app`, `instance`, `tests`, y archivos como `run.py`, `seed.py`, y `.env`.
+
+![Estructura del proyecto](docs/project_structure.png)
+
+
+
+## 🛠️ Uso
+
 ```bash
 pip install -r requirements.txt
 python run.py
+
