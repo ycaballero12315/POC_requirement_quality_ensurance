@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Requisitos registrados</h2>
+<ul>
+    {% for req in requirements %}
+    <li>
+        <strong>{{ req.title }}</strong> — {{ req.priority }} — {{ req.status }}
+        <br>
+        Categoría: {{ req.category.name }} | Autor: {{ req.author.username }}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
