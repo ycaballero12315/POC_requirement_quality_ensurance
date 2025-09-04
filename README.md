@@ -22,7 +22,7 @@ Este proyecto es un Proof of Concept para automatizar la captura de requisitos f
 
 La siguiente imagen muestra la estructura del proyecto `FLASK_REQUIREMENT_POC`, incluyendo carpetas clave como `app`, `instance`, `tests`, y archivos como `run.py`, `seed.py`, y `.env`.
 
-![Estructura del proyecto](docs/project_structure.png)
+![Estructura del proyecto](doc/project_structure.png)
 
 
 
